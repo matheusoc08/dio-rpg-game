@@ -49,17 +49,26 @@ namespace dio_rpg_game.src.Entities
 
         public override string ToString()
         {
-            return $"Nome: {this.Name}\nClasse: {this.HeroType}\nLevel: {this.Level}\nHP: {this.HealthPoints}\nMP: {this.ManaPoints}\n";
+            return
+                $"Nome: {this.Name}\n"+
+                $"Classe: {this.HeroType}\n"+
+                $"Level: {this.Level}\n"+
+                $"HP: {this.HealthPoints}\n"+
+                $"MP: {this.ManaPoints}\n"+
+                $"Atk: {this.PhysicalAttack}\n"+
+                $"Mgc: {this.MagicAttack}\n"+
+                $"Item: {this.Item}";
         }
 
         public virtual string Attack()
         {
-            return $"{this.Name} atacou com {this.Item}.\nCausou {this.PhysicalAttack} de dano";
+            return $"{this.Name} atacou com {this.Item}. Causou {this.PhysicalAttack} de dano.";
         }
 
         public virtual string Magic()
         {
-            return $"{this.Name} atacou com magia.\nCausou {this.MagicAttack} de dano";
+            this.ManaPoints -= 10;
+            return $"{this.Name} atacou com magia. Causou {this.MagicAttack} de dano.";
         }
 
     }
