@@ -1,0 +1,15 @@
+C:\workspace\dio-desafio-github-primeiro-repositorio\Projetos\dio-rpg-game\bin\Debug\net6.0\dio-rpg-game.exe
+C:\workspace\dio-desafio-github-primeiro-repositorio\Projetos\dio-rpg-game\bin\Debug\net6.0\dio-rpg-game.deps.json
+C:\workspace\dio-desafio-github-primeiro-repositorio\Projetos\dio-rpg-game\bin\Debug\net6.0\dio-rpg-game.runtimeconfig.json
+C:\workspace\dio-desafio-github-primeiro-repositorio\Projetos\dio-rpg-game\bin\Debug\net6.0\dio-rpg-game.dll
+C:\workspace\dio-desafio-github-primeiro-repositorio\Projetos\dio-rpg-game\bin\Debug\net6.0\ref\dio-rpg-game.dll
+C:\workspace\dio-desafio-github-primeiro-repositorio\Projetos\dio-rpg-game\bin\Debug\net6.0\dio-rpg-game.pdb
+C:\workspace\dio-desafio-github-primeiro-repositorio\Projetos\dio-rpg-game\obj\Debug\net6.0\dio-rpg-game.csproj.AssemblyReference.cache
+C:\workspace\dio-desafio-github-primeiro-repositorio\Projetos\dio-rpg-game\obj\Debug\net6.0\dio-rpg-game.GeneratedMSBuildEditorConfig.editorconfig
+C:\workspace\dio-desafio-github-primeiro-repositorio\Projetos\dio-rpg-game\obj\Debug\net6.0\dio-rpg-game.AssemblyInfoInputs.cache
+C:\workspace\dio-desafio-github-primeiro-repositorio\Projetos\dio-rpg-game\obj\Debug\net6.0\dio-rpg-game.AssemblyInfo.cs
+C:\workspace\dio-desafio-github-primeiro-repositorio\Projetos\dio-rpg-game\obj\Debug\net6.0\dio-rpg-game.csproj.CoreCompileInputs.cache
+C:\workspace\dio-desafio-github-primeiro-repositorio\Projetos\dio-rpg-game\obj\Debug\net6.0\dio-rpg-game.dll
+C:\workspace\dio-desafio-github-primeiro-repositorio\Projetos\dio-rpg-game\obj\Debug\net6.0\ref\dio-rpg-game.dll
+C:\workspace\dio-desafio-github-primeiro-repositorio\Projetos\dio-rpg-game\obj\Debug\net6.0\dio-rpg-game.pdb
+C:\workspace\dio-desafio-github-primeiro-repositorio\Projetos\dio-rpg-game\obj\Debug\net6.0\dio-rpg-game.genruntimeconfig.cache
