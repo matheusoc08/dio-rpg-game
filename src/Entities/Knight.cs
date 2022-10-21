@@ -12,8 +12,8 @@ namespace dio_rpg_game.src.Entities
         {
             this.HeroType = "Knight";
             this.HealthPoints += 200;
-            this.PhysicalAttack = 40;
-            this.MagicAttack = 20;
+            this.PhysicalAttack += 30;
+            this.MagicAttack += 15;
         }
 
         public Knight(string Name, string Item, int ItemPA, int ItemMA) :
@@ -21,8 +21,8 @@ namespace dio_rpg_game.src.Entities
         {
             this.HeroType = "Knight";
             this.HealthPoints += 200;
-            this.PhysicalAttack = 40;
-            this.MagicAttack = 20;
+            this.PhysicalAttack += 30;
+            this.MagicAttack += 15;
         }
 
         public Knight(string Name, int Level, string HeroType, int HealthPoints, int ManaPoints) :
