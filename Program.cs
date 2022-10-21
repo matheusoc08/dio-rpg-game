@@ -1,12 +1,13 @@
 ﻿using dio_rpg_game.src.Entities;
 
-Knight arus = new Knight("Arus", 1, "Knight");
-Wizard jenica = new Wizard("Jenica", 1, "Wizard");
+Knight arus = new Knight("Arus");
+WhiteWizard jenica = new WhiteWizard("Jenica");
+BlackWizard topapa = new BlackWizard("Topapa");
+Ninja wedge = new Ninja("Wedge");
 
 
 Console.WriteLine(arus);
 Console.WriteLine(jenica);
-
-Console.WriteLine(arus.Attack());
-Console.WriteLine(jenica.Attack(61));
+Console.WriteLine(topapa);
+Console.WriteLine(wedge);
 
