@@ -28,18 +28,25 @@ namespace dio_rpg_game.src.Entities
         {
         }
 
-        public override string Attack()
+        public override string Magic()
         {
-            return $"{this.Name} atacou com magia das sombras.";
+            this.ManaPoints -= 10;
+            return $"{this.Name} atacou com magia das sombras. Causou {this.MagicAttack} de dano.";
         }
 
-        public string Attack(int bonus)
+        public string Magic(int bonus)  
         {
+            this.ManaPoints -= 30;
+
+            string magic =  $"{this.Name} atacou com magia das sombras. Causou {this.MagicAttack} de dano.";
             if (bonus > 6)
             {
-                return $"{this.Name} lançou uma magia super efetiva com bonus de {bonus}.";
+                magic += $" O ataque foi super efetivo com bonus de {bonus}.";
+            } else {
+                magic += $" O ataque foi fraco com bonus de {bonus}.";
             }
-            return $"{this.Name} lançou uma magia fraca com bonus {bonus}.";
+
+            return magic;
         }
 
     }
